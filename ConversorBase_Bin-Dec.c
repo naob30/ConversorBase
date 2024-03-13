@@ -16,10 +16,10 @@ int main() {
     printf("\nO número %d", bin);
 
     while (bin != 0) {
-        digito = bin % 10; // calcula o último dígito do número binário
-        dec = dec + (digito * pot); //adiciona o valor do dígito binário multiplicado pela potência de 2 correta
-        pot = pot * 2; // atualiza a potencia
-        bin = bin / 10; // atualiza a binario
+        digito = bin % 10; 
+        dec = dec + (digito * pot); 
+        pot = pot * 2; 
+        bin = bin / 10; 
     }
 
     printf(" em decimal é: %d\n", dec);
